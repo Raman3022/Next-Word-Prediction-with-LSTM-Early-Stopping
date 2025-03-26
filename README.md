@@ -20,14 +20,15 @@ This project implements a Next Word Prediction model using an LSTM (Long Short-T
 # Requirements
 
 To run this project, ensure you have the following dependencies installed:
-1.tensorflow
-2.pandas
-3.scikit-learn
-4.tensorboard
-5.matplotlib
-6.streamlit
-7.scikeras
-8.nltk 
+
+tensorflow
+pandas
+scikit-learn
+tensorboard
+matplotlib
+streamlit
+scikeras
+nltk 
 
 # Usage
 
@@ -62,29 +63,26 @@ tokenizer.pickle: Tokenizer used for text processing.
 
 # Configuration
 
-System Information
+System Information on which system is trained on - 
 
 Processor: 13th Gen Intel(R) Core(TM) i7-13620H (16 CPUs) @ 2.4GHz
 
-Memory: 16GB RAM
+Memory: 16GB RAM 
 
-Graphics: Intel(R) UHD Graphics (Dedicated: 128MB, Shared: 8043MB)
+Graphics: Nvedia Geforce RTX 4050 (Memory - 13964)
 
-DirectX Version: 12
+Total epoch trained on 100 with improved accuracy and degrading loss
 
-Monitor Resolution: 1920x1080 @ 165Hz
-
-BIOS Version: V1.14 (UEFI)
 
 # Future Improvements
 
 Extend training dataset for better predictions.
 
-Deploy the application online.
-
 Implement multi-word predictions.
 
 Add GPU acceleration for faster inference.
+
+Add more training time and increase number of epochs 
 
 # Author
 
